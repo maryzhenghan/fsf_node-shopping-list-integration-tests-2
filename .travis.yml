@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: kfGy4YAab/6qvszHq4hjgQYR768mxP4NhmK2c9HP0VyYeUK9/ZD3PFki1Gai0TeXosqnpVU2kIhtPqikmKJlEhuzsjON+yEn6qBMmHOHCP9tOnV9DZAID+aAu5kVanxbQxtCD6a2AVkJpdVy9bhyRwJB7ApPpwvB9Fv34SVeGbLs8j/F/MmmdmNquWeYiXzPyJjHOM8WMhaKWgT8mdAEcYWQPeUoXFuNUd27hy3rb3Wh1O402N9/f2cBzZH2qNvSrCnV9lUh5lVT/Lq2AqxQwfpFrmpAR0w3S+u8D/LDigfJ57SyJIn/iCOJxes20qF060JDcpK3sbmeHoBaTxU+TIWOpPB11EJ9EtsrUZonIPeeE3Lc3gyTmKAw63cWpnFL8t6LjEwyR6uz8YZmW73ujhLHaoLTSizQ5zuHwU7jZBgDNbPiLh25+hJ6t0vyxW0Fs2H3bAmr0XZLryTrz5hsoKvC4bnY1lXNczC2jgP+r8CSwyE9utK4Iaz54sUY3Xwm0VikilACw6NgP+qffUkPkOXgBo0NXKnehxUDamHea0kG4AsB/F7qYAPMKQZ7/MWueV3wCbhBWWuj/oteHI2qBfuqquDFVqDMR95na6tyDNy7N9EpRKaS8PIjeRBRACMrp/vJdMyVvyQW/O9zmdQmfLixi/8KFrXEsyLdxeepfVI=
+  app: secret-castle-94388
+  on:
+    repo: maryzhenghan/node-shopping-list-integration-tests-2
